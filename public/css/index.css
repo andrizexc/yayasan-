@@ -1,0 +1,1090 @@
+
+body{
+    padding: 0;
+    margin 0;
+    width: 100%;
+    background: #fff;
+    font-family: poppins;
+}
+/* :: Menu Unit Area CSS */
+
+.isi-content-1{
+    padding-top: 90px;
+}
+ .isi-content-1 h9{
+    font-family: poppins-extrabold;
+    font-size: 20px;
+    color: #022c43;
+}
+.isi-content-1 h1{
+    font-family: poppins-semibold;
+    font-size: 36px;
+}
+.isi-content-1 p{
+    font-size: 15px;
+    line-height: 20px;
+    max-width: 550px;
+}
+
+.bpi-btn {
+  position: relative;
+  z-index: 1;
+  height: 46px;
+  line-height: 46px;
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  border: none;
+  display: inline-block;
+  padding: 0 25px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+  -webkit-transition-duration: 500ms;
+  -o-transition-duration: 500ms;
+  transition-duration: 500ms;
+  overflow: hidden; 
+}
+
+.bpi-btn i {
+    margin-left: 5px; 
+}
+
+.bpi-btn::before {
+    -webkit-transition-duration: 800ms;
+    -o-transition-duration: 800ms;
+    transition-duration: 800ms;
+    position: absolute;
+    width: 120%;
+    height: 120%;
+    top: -10%;
+    left: -10%;
+    content: '';
+    background: #ffd700;
+    z-index: -2; 
+}
+
+.bpi-btn:focus, .bpi-btn:hover {
+    font-weight: 500;
+    background-color: #022c43;
+    color: #ffd700 !important;
+    -webkit-box-shadow: 0 2px 40px 8px rgba(15, 15, 15, 0.15);
+    box-shadow: 0 2px 40px 8px rgba(15, 15, 15, 0.15); 
+}
+
+.bpi-btn:focus i, .bpi-btn:hover i {
+    -webkit-animation: buttonIcon 1s ease-in infinite;
+    animation: buttonIcon 1s ease-in infinite; 
+}
+
+.bpi-btn:focus::before, .bpi-btn:hover::before {
+    left: 110%; 
+}
+
+.wrap-slick1 {
+  position: relative;
+    height: auto;
+}
+
+.item-slick1 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.item-slick1 img{
+    width: 100%;
+}
+
+.rs2-slick1 .item-slick1 {
+    height: 800px;
+}
+
+.wrap-slick1-dots {
+  position: absolute;
+  width: 100%;
+  margin-left: -20px;
+  top: 600px;
+}
+
+.slick1-dots {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+}
+
+.slick1-dots li {
+  width: 200px;
+  position: relative;
+  cursor: pointer;
+ list-style: none;
+   
+}
+
+.slick1-dots li img {
+  width: 100%;
+}
+
+.caption-dots-slick1 {
+  font-family: Poppins;
+  font-size: 18px;
+  line-height: 1.3;
+  color: #ffd700;
+  text-align: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(2, 44, 67, 0.71);
+  padding: 10px;
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+  opacity: 1;
+}
+
+.slick1-dots li:hover .caption-dots-slick1 {
+  background-color: rgba(255, 215, 0, 0.29);
+    color: #022c43;
+    font-family: Poppins-medium;
+    font-weight: 600;
+  font-size: 18px;
+  line-height: 1.3;
+}
+
+.slick1-dots li.slick-active .caption-dots-slick1 {
+background-color: rgba(255, 215, 0, 0.29);
+    color: #022c43;
+    font-family: Poppins-medium;
+    font-weight: 600;
+  font-size: 18px;
+  line-height: 1.3;
+}
+.container-slick {
+    padding: 42px 0px 12px 50px;
+}
+
+
+/* :: Heading Yayasan */
+.section-heading {
+    position: relative;
+    text-align: center;
+    z-index: 1;
+    margin-bottom: 40px;
+}
+.section-heading p {
+    color: #ffd700;
+    letter-spacing: 1px;
+}
+.section-heading h1 {
+    color: #022c43;
+    font-weight: 700;
+    font-family: poppins-semibold;
+}
+
+/* :: Bpi Today  CSS */
+.bpi-today {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.single-today-area{
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    margin-bottom: 40px;
+    transition: transform .6s; /* Animation */
+}
+.single-today-area:hover {
+     -webkit-box-shadow: 0px 2px 5px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 5px -2px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 5px -2px rgba(0,0,0,0.75);
+    transform: scale(1.1);
+}
+.respon-td {
+  width: 100%;
+  height:100%;
+}
+.card-img {
+    object-fit: cover;
+}
+.card-bg-today {
+    background-color: rgba(2, 44, 67, 0.62);
+}
+.card-position {
+    width: 100%;
+    height: 100%;
+    padding: 180px 0px 20px 0px;
+}
+.card-position-2 {
+     padding: 90px 0px 20px 0px;
+     width: 100%;
+    height: 100%;
+}
+.card-position-2 h5 {
+    color: #ffd700;
+    font-family: poppins-semibold;
+    margin-bottom: 0;
+}
+.card-position-2  h2 {
+    font-size: 26px;
+    font-weight: 400;
+    font-family: poppins;
+}
+.card-position-2 p {
+    font-size: 11px;
+}
+.card-position h5 {
+    color: #ffd700;
+    font-family: poppins-semibold;
+    margin-bottom: 0;
+}
+.card-position h2 {
+    font-size: 26px;
+    font-weight: 400;
+    font-family: poppins;
+}
+.card-position p {
+    font-size: 11px;
+}
+
+/* :: Bpi Artikel CSS */
+.bpi-artikel {
+    margin-bottom: 80px;
+    margin-top: 40px;
+}
+.back-artikel .section-heading h1{
+    color: #fff;
+}
+.bpi-artikel .respon-card:hover{
+	text-decoration: none;
+}
+.back-artikel {
+    background-image: url(../img/back-footer.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+.single-thumb-artikel{
+    position: relative;
+    background-color: white;
+    z-index: 1;
+    overflow: hidden;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    transition: transform .2s; /* Animation */
+    -webkit-box-shadow: 0px 2px 5px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 5px -2px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 5px -2px rgba(0,0,0,0.75);
+}
+.single-thumb-artikel:hover {
+    transform: scale(1.1);
+}
+.single-thumb-artikel .card-img-thumb {
+    position: relative;
+    width: 700px;
+    z-index: 1;
+}
+.single-thumb-artikel .card-img-thumb img {
+    -webkit-transition-duration: 1500ms;
+    -o-transition-duration:   1500ms;
+    transition-duration: 1500ms;
+    width: 100%;
+}
+.card-text-artikel {
+    padding-top:20px; 
+    color: #022c43;
+}
+.info-artikel {
+    padding-top: 12px;
+    color: #6d6d6d;
+    margin: 0 auto;
+    font-size: 14px;
+}
+.single-thumb-artikel .see-comment {
+    padding: 0;
+    text-align: center;
+}
+.info-date {
+    color: #022c43;
+}
+.info-date .iconbpi {
+    padding-right: 10px;
+}
+.tgl-back {
+    background-color: #022c43;
+    position: absolute;
+    padding-left: 10px;
+    padding-right: 10px;
+    z-index: 22;
+    top: -52px;
+    right: 20px;
+}
+.tgl-back h6 {
+    color: #ffd700;
+    font-family: poppins-medium;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.tgl-back p {
+    font-size: 24px;
+    color: #ffd700;
+    font-family: poppins-medium;
+    text-align: center;
+    margin-top: -10px;
+}
+
+/* :: PPDB CSS */
+
+.ppdb{
+    min-height: 281px;
+    background-image: url(../img/back-footer.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 100px;
+    padding: 50px 20px 50px 20px;
+}
+
+.ppdb .padding-ppdb{
+    padding-top: 20px;
+}
+.ppdb #ppdb2020{
+    color: #ffd700;
+    font-family: poppins-italic;
+}
+.ppdb #ppdb{
+    color: #fff;
+    font-family: poppins-medium;
+    margin-top: -8px;
+}
+.ppdb p{
+    color: #fff;
+    max-width: 520px;
+    font-size: 20px;
+}
+.ppdb .padding-btn{
+    margin-top: 40px;
+}
+.ppdb .bpi-btn{
+    padding: 0px 80px 0px 80px;
+    height: 50px;
+}
+
+/* :: Prestasi Area CSS */
+.prestasi{
+    margin-bottom: 80px;
+    margin-top: 40px;
+}
+.prestasi .car-img{
+    height: 150px;
+}
+.prestasi h1{
+    color: #022c43;
+    font-family: poppins-semibold;
+}
+.prestasi .subtitle-prestasi{
+    color: #ffd700;
+    font-family: poppins-medium;
+    margin-top: -10px;
+}
+.prestasi h5{
+    font-family: poppins-semibold;
+}
+.prestasi .ket-prestasi p{
+    font-size: 11px;
+    color: #022c43;
+    padding: 0;
+}
+.prestasi .respon-card:hover{
+	text-decoration: none;
+}
+.single-thumb-juara{
+    position: relative;
+    background-color: white;
+    z-index: 1;
+    overflow: hidden;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    transition: transform .2s; /* Animation */
+    -webkit-box-shadow: 0px 2px 5px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 5px -2px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 5px -2px rgba(0,0,0,0.75);
+}
+.single-thumb-juara:hover {
+    transform: scale(1.1);
+}
+.single-thumb-juara .card-img-thumb {
+    position: relative;
+    width: 800px;
+    z-index: 1;
+}
+.single-thumb-juara .card-img-thumb img {
+    -webkit-transition-duration: 1500ms;
+    -o-transition-duration:   1500ms;
+    transition-duration: 1500ms;
+    width: 100%;
+}
+.content-prestasi .card-body {
+    padding-bottom: 0;
+}
+.content-prestasi .card-body h5 {
+    color: #022c43;
+}
+.card-body-bawah {
+    background-color: #022c43;
+    padding: 12px 40px 22px 40px;
+    font-size: 11px;
+}
+.ket-prestasi-bawah div{
+    padding: 0;
+}
+.info-juara {
+    color: white;
+    margin: 0 auto;
+}
+.number-juara{
+    color: #ffd700;
+    font-size: 18px;
+    margin: 0 auto;
+}
+.info-juara-strip {
+    color: white;
+    padding-top: 18px;
+    margin: 0 auto;
+    font-size: 17px;
+}
+
+/* :: Agenda Area CSS */
+.margin-bpi-agenda{
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+.margin-bpi-agenda .agenda-bawah{
+    margin-top: -100px;
+}
+.content-agenda {
+    padding: 200px 20px 20px 0px;
+}
+.content-agenda h9 {
+    color: #ffd700;
+    font-weight: 800;
+}
+.content-agenda h1  {
+    font-family: poppins-semiBold;
+    color: #022c43;
+    font-size: 36px;
+}
+.content-agenda p  {
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    color: #022c43;
+    font-size: 15px;
+}
+
+figure {
+    position: relative;
+    float: left;
+    overflow: hidden;
+    margin: 20px 1%;
+    width: 100%;
+    background: #3085a3;
+    text-align: center;
+    cursor: pointer;
+}
+.agenda-container .agenda-card {
+    height: 400px;  
+}
+.agenda-container .kecil {
+    height: 300px;  
+}
+.agenda-container .atasin {
+    top: -100px;
+}
+
+figure img {
+    position: relative;
+    display: block;
+    min-height: 100%;
+    max-width: 100%;
+    opacity: 0.8;
+}
+
+figure .figcaption {
+    padding: 2em;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.25em;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+figure .figcaption::before,
+figure .figcaption::after {
+    pointer-events: none;
+}
+
+figure .figcaption,
+figure .figcaption>a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+figure .figcaption>a {
+    text-indent: 200%;
+    white-space: nowrap;
+    font-size: 0;
+    opacity: 0;
+}
+
+figure h2  {
+     font-size: 18px;
+     font-family: Poppins-medium;
+}
+
+figure h2  span {
+    font-weight: 800;
+}
+
+figure h2,
+ figure .grow,
+    figure .icon-agenda{
+    margin: 0;
+}
+.icon-agenda {
+    color: #ffd700;
+    font-size: 14px;
+}
+.icon-na {
+    padding: 2px 4px 1px 8px;
+}
+ figure .grow {
+    font-size: 13px;
+    margin-top: 12px;
+}
+.readmore-agenda{
+    position: absolute;
+    bottom: 80px;
+    width: 100%;
+    margin-left: -20px;
+}
+.readmore-agenda h2{
+    font-size:12px;
+    color: #ffd700;
+    text-align: center;
+}
+
+figure.agenda-card img {
+    max-width: none;
+    width: -webkit-calc(100% + 50px);
+    width: calc(100% + 50px);
+    opacity: 0.7;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: translate3d(-40px, 0, 0);
+    transform: translate3d(-40px, 0, 0);
+}
+
+figure.agenda-card .figcaption {
+    text-align: left;
+}
+
+figure.agenda-card .figcaption>div {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    padding: 0px 20px 0px 20px;
+    width: 100%;
+    height: 100%;
+}
+
+figure.agenda-card h2,
+figure.agenda-card .grow {
+    -webkit-transform: translate3d(0, 0px, 0);
+    transform: translate3d(0, 0px, 0);
+}
+
+figure.agenda-card h2 {
+    -webkit-transition: -webkit-transform 0.35s;
+    transition: transform 0.35s;
+}
+
+figure.agenda-card .grow {
+    color: rgba(255, 255, 255, 0.8);
+    opacity: 0;
+    -webkit-transition: opacity 0.2s, -webkit-transform 0.35s;
+    transition: opacity 0.2s, transform 0.35s;
+}
+
+figure.agenda-card:hover img,
+figure.agenda-card:hover .grow {
+    opacity: 1;
+}
+        
+figure.agenda-card:hover img,
+figure.agenda-card:hover h2,
+figure.agenda-card:hover .grow {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+figure.agenda-card:hover .grow {
+    -webkit-transition-delay: 0.05s;
+    transition-delay: 0.05s;
+    -webkit-transition-duration: 0.35s;
+    transition-duration: 0.35s;
+}
+
+
+@media screen and (max-width: 50em) {
+    .content {
+        padding: 0 10px;
+        text-align: center;
+    }
+    figure {
+        display: inline-block;
+        float: none;
+        margin: 10px auto;
+        width: 100%;
+    }
+}
+
+@media (max-width: 6090px){
+    .section-heading p {
+        font-size: 12px;
+    }
+    .section-heading h1 {
+        font-size: 32px;
+    }
+}
+
+@media (max-width:1199px){
+    .card-position {
+    padding: 130px 0px 20px 0px;
+    font-family: poppins;
+    }
+    .card-position-2 {
+        padding: 50px 0px 20px 0px;
+    }
+    .rs2-slick1 .item-slick1 {
+        height: 750px;
+    }
+   .agenda-card {
+        max-height:  260px;
+    }
+    .agenda-container .atasin {
+        top: 0;
+    }
+    figure .grow {
+        font-size: 10px;
+        margin-top: 12px;
+    }
+    .bpi-agenda {
+        margin-bottom: 80px;
+    }
+    .content-agenda {
+        padding: 100px 20px 20px 0px;
+    }
+	.margin-bpi-agenda .agenda-bawah{
+		margin-top: 0;
+	}
+}
+
+@media (max-width: 1065px){
+    .isi-content-1 h1{
+        font-size: 34px;
+    }
+    .isi-content-1 h9{
+        font-size: 18px;
+    }
+    .isi-content-1 p{
+        font-size: 14px;
+    }
+    .caption-dots-slick1 {
+        font-size: 14px;
+    }
+    .slick1-dots li:hover .caption-dots-slick1 {
+        font-size: 14px;
+    }
+    .slick1-dots li.slick-active .caption-dots-slick1 {
+        font-size: 14px;
+    }
+    .content-agenda {
+        padding: 110px 20px 20px 0px;
+    }
+    .content-agenda h9 {
+        font-size: 15px;
+    }
+    .content-agenda h1  {
+        font-size: 34px;
+    }
+    .content-agenda p  {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 1017px){
+    .isi-content-1 h1{
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 991px){
+    .card-position-2 {
+        padding: 130px 0px 20px 0px;
+    }
+    .card-position {
+        text-align: center;
+        padding: 130px 0px 20px 0px;
+    }
+    .card-img {
+        object-fit: cover;
+        height: 380px;
+    }
+    .item-slick1 .img-hidden{
+        display: none;
+    }
+    .wrap-slick1-dots {
+      top: 500px;
+    }
+    .rs2-slick1 .item-slick1 {
+        height: 600px;
+    }
+    figure h2  {
+        word-spacing: -0.15em;
+        font-size: 18px;
+        font-family: Poppins-medium;
+    }
+    .content-agenda {
+        padding: 0px 20px 40px 0px;
+    }
+    .ppdb .padding-ppdb{
+        padding-top: 30px;
+    }
+    .ppdb h2{
+        font-size: 24px;
+    }
+    .ppdb p{
+        font-size: 16px;
+    }
+    .ppdb .bpi-btn{
+        padding: 0px 60px 0px 60px;
+        height: 45px;
+    }
+    .card-position {
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .card-position-2 {
+        padding: 50px 0px 20px 0px;
+    }
+    .card-position {
+        padding: 50px 0px 20px 0px;
+    }
+    .single-today-area {
+        height: 220px;
+    }
+    .size-card {
+        height: 100%;
+    }
+    .isi-content-1{
+        padding-top: 0;
+    }
+    .rs2-slick1 .item-slick1 {
+        height: 500px;
+    }
+    .footer .agenda .img-agenda{
+        padding: 0;
+        height: 290px;
+    }
+    .wrap-slick1-dots {
+      top: 400px;
+    }
+
+}
+
+@media (max-width: 767px){
+    .card-position-2 {
+        padding: 55px 0px 20px 0px;
+    }
+    .card-position {
+        padding: 55px 0px 20px 0px;
+    }
+    .single-today-area h5{
+        font-size: 20px;
+    }
+    .single-today-area h2{
+        font-size: 24px;
+    }
+    .wrap-slick1-dots {
+      display: none;
+    }
+    .rs2-slick1 .item-slick1 {
+        height: 380px;
+    }
+    .section-heading h1 {
+        font-weight: 0;
+        font-size: 30px;
+    }
+    .ppdb .padding-btn{
+        margin-top: 20px;
+    }
+    .ppdb #ppdb2020{
+        font-size: 24px; 
+    }
+    .ppdb #ppdb{
+       font-size: 24px; 
+    }
+    .ppdb p{
+         font-size: 14px; 
+    }
+    .single-today-area:hover {
+        transform: scale(1);
+    }
+    .single-thumb-artikel:hover {
+        transform: scale(1);
+    }
+    .single-thumb-juara:hover {
+        transform: scale(1);
+    }
+    .ppdb .padding-ppdb{
+        padding-top: 0px;
+    }
+    .padding-btn .bpi-btn{
+        margin-top: -40px;
+        margin-bottom: 5px;
+    }
+    .info-artikel-bawah p{
+        text-align: center;
+    }
+}
+
+@media (max-width: 700px){
+    .container-slick {
+        padding: 40px 0px 12px 0px;
+    }
+}
+
+@media (max-width: 575px){
+    .single-thumb-juara{
+        max-width: 100%;
+    }
+    .single-thumb-artikel{
+        max-width: 100%;
+    }
+    .respon-card {
+        padding: 10px 50px 10px 50px;
+    }
+    .agenda-container {
+        width: 100%;
+        padding: 0px 80px 0px 80px;
+    }
+    .agenda-card {
+        position: relative;
+        right: 0%;
+        max-height:  300px;
+    }
+    .isi-content-1 p{
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 481px){
+    .isi-content-1 h1{
+        font-size: 28px;
+    }
+    .isi-content-1 h9{
+        font-size: 14px;
+    }
+    .bpi-btn{
+        margin-top: -30px;
+    }
+    .agenda-container {
+        width: 100%;
+        padding: 0px 40px 0px 40px;
+    }
+    .agenda-card {
+        position: relative;
+        right: 0%;
+        max-height:  300px;
+    }
+    .content-agenda {
+        margin-top: -20px;
+    }
+    .content-agenda h9 {
+        font-size: 15px;
+    }
+    .content-agenda h1  {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 427px){
+    .info-artikel-bawah p{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 402px){
+    .icon-admin{
+        padding-right: 0;
+    }
+}
+
+@media (max-width: 400px){
+    p{
+        font-size: 12px;
+    }
+    .info-artikel-bawah p{
+        font-size: 12px;
+    }
+    .content-agenda p {
+        font-size: 12px;
+    }
+    .content-agenda h9 {
+        font-size: 14px;
+    }
+    .content-agenda h1  {
+        font-size: 24px;
+    }
+    .section-heading h1{
+        font-weight: 0;
+        font-size: 24px;
+    }
+    .agenda-container {
+        width: 100%;
+        padding: 0px 30px 0px 30px;
+    }
+    .agenda-card {
+        position: relative;
+        right: 0%;
+        max-height:  300px;
+    }
+    .single-thumb-juara .card-img-thumb {
+        position: relative;
+        width: 600px;
+        z-index: 1;
+    }
+    .card-text {
+        font-size: 17px;
+    }
+    .ket-prestasi {
+        font-size: 14px;
+    }
+    .number-juara {
+        font-size: 14px;
+        font-weight: 600;
+    }
+    .single-thumb-artikel .card-img-thumb {
+        position: relative;
+        width: 600px;
+        z-index: 1;
+    }
+}
+
+@media (max-width: 387px){
+    .isi-content-1 h1{
+        font-size: 24px;
+    }
+    .isi-content-1 h9{
+        font-size: 14px;
+    }
+    .bpi-btn{
+        margin-top: -30px;
+    }
+    .info-date {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 378px){
+    .single-thumb-artikel .see-comment {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .info-artikel-bawah p{
+        text-align: center;
+    }
+}
+
+@media (max-width: 366px){
+    .rs2-slick1 .item-slick1 {
+        height: 450px;
+    }
+    .card-text-artikel {
+        font-size: 18px;
+    }
+    .single-thumb-artikel .card-body{
+        padding-bottom: 0;
+    }
+    .single-thumb-artikel .card-img-thumb img {
+        width: 90%;
+    }
+}
+
+@media (max-width: 341px){
+    .isi-content-1 h1{
+        font-size: 22px;
+    }
+    .isi-content-1 h9{
+        font-size: 12px;
+    }
+    .agenda-container {
+        width: 100%;
+        padding: 0px 0px 0px 0px;
+    }
+    .agenda-card {
+        position: relative;
+        right: 0%;
+        max-height:  250px;
+    }
+    .single-thumb-juara .card-img-thumb {
+    position: relative;
+    width: 400px;
+    z-index: 1;
+    }
+    .card-text {
+        font-size: 17px;
+    }
+    .ket-prestasi {
+        padding: 0px 10px 0px 10px;
+        font-size: 10px;
+    }
+    .info-juara {
+        font-size: 10px;
+    }
+    .number-juara {
+        font-size: 11px;
+        font-weight: 600;
+    }
+    .card-text-artikel {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 320px){
+    .info-date .iconbpi {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}

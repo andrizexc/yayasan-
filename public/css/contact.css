@@ -1,0 +1,170 @@
+body{
+    padding: 0;
+    margin 0;
+    width: 100%;
+    background: #fff;
+    font-family: poppins;
+}
+.contact--us-area .row {
+  margin-right: -25px;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  margin-left: -25px; }
+
+  @media only screen and (max-width: 767px) {
+    .contact--us-area .row {
+      margin-left: -15px;
+      margin-right: -15px; } }
+
+  .contact--us-area .row .col-12 {
+    padding-left: 25px;
+    padding-right: 25px; }
+
+    @media only screen and (max-width: 767px) {
+      .contact--us-area .row .col-12 {
+        padding-left: 15px;
+        padding-right: 15px; } }
+
+.contact--us-area .contact-us-thumb img {
+  border-radius: 10px;
+    width: 100%;
+    margin-bottom: 40px;
+}
+.contact--us-area .contact_from_area .contact-heading h4 {
+  font-size: 25px;
+  color: #111343;
+  text-transform: uppercase; }
+
+.contact--us-area .contact_from_area .contact-heading p{
+  color: #5d5e8d;
+  margin-bottom: 30px; }
+
+@media only screen and (max-width: 575px) {
+    .contact--us-area .contact_from_area .contact-heading p {
+        font-size: 14px; 
+    } 
+}
+@media only screen and (max-width: 400px) {
+    .contact--us-area .contact_from_area .contact-heading p {
+        font-size: 12px; 
+    } 
+}
+
+
+.contact_input_area .form-group .form-control {
+  border-bottom: 1px solid #dbdcf1;
+  color: #9293bc; }
+
+  .contact_input_area .form-group .form-control:active, .contact_input_area .form-group .form-control:focus {
+    border-bottom-color: #5d5e8d; }
+
+.contact_input_area .form-group textarea.form-control {
+  height: 70px; }
+
+.map-area {
+  position: relative;
+  z-index: 1; }
+  .map-area iframe {
+    height: 580px;
+    width: 100%;
+    border: none; }
+
+.contact--info-area {
+  padding: 40px 50px 0;
+  position: relative;
+  z-index: 22;
+  top: -75px;
+  background-color:  #022c43;
+  border-radius: 10px; }
+
+  .contact--info-area .single-contact--info {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 50px; }
+
+    .contact--info-area .single-contact--info h5 {
+      color: #ffd700;
+      font-size: 16px;
+      margin-bottom: 0;
+      margin-top: 30px;
+      display: inline-block; }
+
+      @media only screen and (min-width: 768px) and (max-width: 991px) {
+        .contact--info-area .single-contact--info h5 {
+          font-size: 14px; } }
+
+
+.form-group .formbpi {
+  -webkit-transition-duration: 300ms;
+  -o-transition-duration: 300ms;
+  transition-duration: 300ms;
+  background-color: transparent;
+  border-right: none;
+  border-top: none;
+  border-left: none;
+  border-radius: 0;
+  border-bottom: 1px solid #ffd700;
+  font-size: 15px;
+  text-transform: capitalize;
+  color: #ffd700;
+  padding-left: 0; }
+  .form-group .formbpi:focus {
+    box-shadow: none; }
+  .form-group .formbpi:active, .form-group .formbpi:focus {
+    border-bottom-color: #ffd700; }
+.form-group textarea.formbpi {
+  height: 80px; }
+
+.bpi-btn {
+  position: relative;
+  z-index: 1;
+  height: 46px;
+  line-height: 46px;
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  border: none;
+  display: inline-block;
+  padding: 0 25px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+  -webkit-transition-duration: 500ms;
+  -o-transition-duration: 500ms;
+  transition-duration: 500ms;
+  overflow: hidden; }
+  .bpi-btn i {
+    margin-left: 5px; }
+  .bpi-btn::before {
+    -webkit-transition-duration: 800ms;
+    -o-transition-duration: 800ms;
+    transition-duration: 800ms;
+    position: absolute;
+    width: 120%;
+    height: 120%;
+    top: -10%;
+    left: -10%;
+    content: '';
+    background: #ffd700;
+    z-index: -2; }
+  .bpi-btn:focus, .bpi-btn:hover {
+    font-weight: 500;
+    background-color: #ffffff;
+    color: #111343 !important;
+    -webkit-box-shadow: 0 2px 40px 8px rgba(15, 15, 15, 0.15);
+    box-shadow: 0 2px 40px 8px rgba(15, 15, 15, 0.15); }
+    .bpi-btn:focus i, .bpi-btn:hover i {
+      -webkit-animation: buttonIcon 1s ease-in infinite;
+      animation: buttonIcon 1s ease-in infinite; }
+    .bpi-btn:focus::before, .bpi-btn:hover::before {
+      left: 110%; }
+.icon-contact {
+    font-size: 30px;
+    color: 12px;
+    color: #111343;
+    margin-bottom: 12px;
+    background-color: #ffd700;
+    padding: 25px;
+    border-radius: 100%;
+}

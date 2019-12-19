@@ -1,0 +1,362 @@
+body{
+    padding: 0;
+    margin 0;
+    width: 100%;
+    background: #fff;
+    font-family: poppins;
+}
+.fasilitas {
+    margin-top: 80px;
+}
+.pengertian-sarana{
+    margin-bottom: 80px;
+}
+.section-heading {
+    position: relative;
+    text-align: center;
+    z-index: 1;
+    margin-bottom: 50px;
+}
+.section-heading p {
+    color: #ffd700;
+    letter-spacing: 1px;
+}
+.section-heading h1 {
+    color: #022c43;
+    font-weight: 700;
+    font-family: poppins-semibold;
+}
+.img-sarana img{
+    width: 80%;
+}
+.sarana{
+    padding-top: 20px;
+    font-family: poppins-italic;
+}
+.sarana h5{
+    font-family: poppins-semibold;
+    color: #022c43;
+}
+.bawah-fasilitas {
+    top: 150px;
+}
+.ruangan{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background: #f0f0f0;
+}
+.ruangan .sub-judul{
+    color: #ffd700;
+}
+.ruangan h3{
+    font-family: poppins-semibold;
+    color: #022c43;
+}
+.ruangan .jumlah{
+    padding: 40px 0px 40px 0px;
+}
+.ruangan .jumlah p{
+    font-family: poppins-medium;
+    text-align: center;
+}
+.ruangan .jumlah .angka{
+    font-family: poppins-semibold;
+    font-size: 34px;
+    color: #ffd700;
+}
+.ruangan .card{
+    margin: 10px;
+    width: 15rem;
+}
+.ruangan .card .card-title{
+    font-family: poppins-medium;
+    color: #022c43;
+}
+.ruangan .card .card-text{
+    font-size: 12px;
+}
+
+.all-fasilitas{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.all-fasilitas i{
+    font-size: 34px;
+    color: #ffd700;
+}
+.all-fasilitas h5{
+    color: #022c43;
+    font-family: poppins-semibold;
+    margin-top: 20px;
+}
+.all-fasilitas p{
+    font-size: 14px;
+}
+
+.galeri-fasilitas{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background: #f0f0f0;
+}
+
+.unit-bpi{
+    padding-bottom: 80px;
+}
+ .unit-card{
+    display: inline-block;
+    width: 100%;
+    max-height: 100%;
+    padding: 0;
+    background-position: center;
+    background-color: antiquewhite;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ .unit-img {
+    position: relative;
+    background-color: #022c43;
+    background-position: center;
+}
+.unit-img img {
+    width: 100%;
+    height: 100%;
+}
+.a-unit-caption{
+	z-index: 50;
+    position: absolute;
+    top: 0;
+	left: 0;
+    width: 100%;
+    height: 100%;
+}
+.unit-caption{
+    color: #fff;
+    background-color: rgba(2, 44, 67, 0.63);
+    position: absolute;
+    top: 0;
+    font-family: poppins-semibold;
+    font-size: 1.1vw;
+    width: 100%;
+    height: 100%;
+    padding: 30px 30px 50px 20px;
+}
+.location-unit {
+    font-size: 11px;
+    color: #ffd700;
+    font-family: poppins-medium;
+}
+.icon-unit-location {
+    padding: 10px 10px 10xp 10px;
+}
+.unit-card :hover {
+    background-color: rgba(255, 215, 0, 0.5);
+}
+.unit-card:hover a{
+    background-color: rgba(255, 255, 255, 0);
+}
+.unit-card:hover .location-unit{
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.bpi-btn {
+  position: relative;
+  z-index: 1;
+  height: 46px;
+  line-height: 46px;
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  border: none;
+  display: inline-block;
+  padding: 0 25px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+  -webkit-transition-duration: 500ms;
+  -o-transition-duration: 500ms;
+  transition-duration: 500ms;
+  overflow: hidden; 
+}
+
+.bpi-btn i {
+    margin-left: 5px; 
+}
+
+.bpi-btn::before {
+    -webkit-transition-duration: 800ms;
+    -o-transition-duration: 800ms;
+    transition-duration: 800ms;
+    position: absolute;
+    width: 120%;
+    height: 120%;
+    top: -10%;
+    left: -10%;
+    content: '';
+    background: #ffd700;
+    z-index: -2; 
+}
+
+.bpi-btn:focus, .bpi-btn:hover {
+    font-weight: 500;
+    background-color: #022c43;
+    color: #ffd700 !important;
+    -webkit-box-shadow: 0 2px 40px 8px rgba(15, 15, 15, 0.15);
+    box-shadow: 0 2px 40px 8px rgba(15, 15, 15, 0.15); 
+}
+
+.bpi-btn:focus i, .bpi-btn:hover i {
+    -webkit-animation: buttonIcon 1s ease-in infinite;
+    animation: buttonIcon 1s ease-in infinite; 
+}
+
+.bpi-btn:focus::before, .bpi-btn:hover::before {
+    left: 110%; 
+}
+
+@media (max-width: 1199px){
+    .sarana{
+        padding-top: 40px;
+    }
+    .ruangan .card{
+        width: 13rem;
+    }
+}
+
+@media (max-width: 1063px) {
+    .location-unit {
+        font-size: 8px;
+    }
+}
+
+@media (max-width: 991px){
+    .img-sarana img{
+        width: 70%;
+    }
+    .sarana{
+        padding-top: 0;
+    }
+    .all-fasilitas h5{
+        font-size: 18px;
+        margin-top: 15px;
+    }
+    .bawah-fasilitas{
+        top: 0;
+    }
+}
+
+@media (max-width: 952px) {
+    .unit-caption {
+        padding-top: 5px;
+    }
+}
+
+@media (max-width: 767px){
+    .section-heading h1 {
+        font-weight: 0;
+        font-size: 30px;
+    }
+    .img-sarana img{
+        width: 70%;
+    }
+    .sarana{
+        padding-top: 40px;
+    }
+    .all-fasilitas h5{
+        font-size: 18px;
+        margin-top: 15px;
+    }
+    .unit-caption {
+        padding-top: 30px;
+        font-size: 16px;
+    }
+    .location-unit {
+        font-size: 12px;
+    }
+    .ruangan .card{
+        display: none;
+    }
+}
+
+@media (max-width: 750px){ 
+    .unit-caption {
+        padding-top: 15px;
+    }
+}
+
+@media (max-width: 648px){   
+    .unit-caption {
+        padding-top: 5px;
+    }
+}
+
+@media (max-width: 575px){
+    .sarana h5{
+        font-size: 20px;
+    }   
+    .sarana p{
+        font-size: 14px;
+    }
+    .unit-caption {
+        padding-top: 40px;
+    }
+}
+@media (max-width: 549px){
+    .bawah-fasilitas {
+        top: 0px;
+    }
+    .ruangan h3{
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 432px) {
+    .unit-caption {
+        padding-top: 30px;
+        font-size: 14px;
+    }
+    .location-unit {
+        font-size: 10px;
+    }
+    .ruangan h3{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 400px){
+    .section-heading h1 {
+        font-weight: 0;
+        font-size: 24px;
+    }
+    .sarana h5{
+        font-size: 18px;
+    }
+    .all-fasilitas h5{
+        font-size: 15px;
+        margin-top: 15px;
+    }   
+    .sarana p{
+        font-size: 12px;
+    }
+    .all-fasilitas p{
+        font-size: 12px;
+    }
+    p{
+        font-size: 12px;
+    }
+}
+@media (max-width: 390px) {
+    .unit-caption {
+        padding-top: 15px;
+        font-size: 12px;
+    }
+    .location-unit {
+        font-size: 10px;
+    }
+}
+
+
+
+
+

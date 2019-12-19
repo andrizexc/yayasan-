@@ -1,0 +1,385 @@
+body{
+    padding: 0;
+    margin 0;
+    width: 100%;
+    background: #fff;
+    font-family: poppins;
+}
+p{
+    font-size: 15px;
+}
+.sambutan {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.section-heading {
+    position: relative;
+    text-align: center;
+    z-index: 1;
+    margin-bottom: 50px;
+}
+.section-heading p {
+    color: #ffd700;
+    letter-spacing: 1px;
+}
+.section-heading h1 {
+    color: #022c43;
+    font-weight: 700;
+    font-family: poppins-semibold;
+}
+.sambutan img{
+    max-width: 330px;
+    margin-bottom: 30px;
+}
+.sambutan .section-text h3{
+    color: #022c43;
+    font-weight: 700;
+    font-family: poppins-semibold;
+}
+.sambutan .section-text .ketua{
+    color: #ffd700;
+}
+.sambutan .section-text .pembuka{
+    color: #022c43;
+    font-family: poppins-italic;
+}
+.sambutan .section-text .isi{
+    font-family: poppins-italic;
+}
+
+.unit-bpi{
+    padding-bottom: 80px;
+}
+ .unit-card{
+    display: inline-block;
+    width: 100%;
+    max-height: 100%;
+    padding: 0;
+    background-position: center;
+    background-color: antiquewhite;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ .unit-img {
+    position: relative;
+    background-color: #022c43;
+    background-position: center;
+}
+.unit-img img {
+    width: 100%;
+    height: 100%;
+}
+.a-unit-caption{
+	z-index: 50;
+    position: absolute;
+    top: 0;
+	left: 0;
+    width: 100%;
+    height: 100%;
+}
+.unit-caption{
+    color: #fff;
+    background-color: rgba(2, 44, 67, 0.63);
+    position: absolute;
+    top: 0;
+    font-family: poppins-semibold;
+    font-size: 1.1vw;
+    width: 100%;
+    height: 100%;
+    padding: 30px 30px 50px 20px;
+}
+.location-unit {
+    font-size: 11px;
+    color: #ffd700;
+    font-family: poppins-medium;
+}
+.icon-unit-location {
+    padding: 10px 10px 10xp 10px;
+}
+.unit-card :hover {
+    background-color: rgba(255, 215, 0, 0.5);
+}
+.unit-card:hover a{
+    background-color: rgba(255, 255, 255, 0);
+}
+.unit-card:hover .location-unit{
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.ket-web{
+    margin-bottom: 80px;
+}
+.ket-web .isi-ket{
+    text-align: center;
+}
+.ket-web .ttd-ketua{
+    text-align: left;
+}
+.manajemen{
+    margin-bottom: 80px;
+}
+.manajemen .judul-nama{
+    font-family: poppins-semibold;
+    color: #022c43;
+}
+.single-today-area{
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    margin-bottom: 40px;
+    transition: transform .6s; /* Animation */
+}
+.single-today-area:hover {
+     -webkit-box-shadow: 0px 2px 5px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 5px -2px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 5px -2px rgba(0,0,0,0.75);
+    transform: scale(1.1);
+}
+.single-today-area .img-single-thumb{
+    position: relative;
+    z-index: 1;
+    background-color: #000000;
+    width: 100%;
+    height: 100%;
+}
+.single-today-area .img-single-thumb img{
+    width: 100%;
+    height: 100%;
+}
+.single-today-area .today-inpo{
+    position: absolute;
+    bottom: 0px;
+    z-index: 22;
+    padding: 15px;
+}
+.single-today-area .today-inpo h6{
+    color: #fff;
+    font-family: poppins-semibold; 
+}
+.single-today-area .today-inpo p{
+    color: #ffd700;
+    font-size: 12px;
+    font-family: poppins-italic;
+    
+}
+.slogan{
+    margin-bottom: 80px;
+    background-image: url(../img/back-footer.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.slogan .container{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.slogan .title{
+    color: #ffd700;
+    font-family: poppins-italic;
+    font-size: 2.4vw;
+}
+.slogan .sub-title{
+    color: #fff;
+    font-family: poppins-medium;
+    margin-top: -8px;
+    font-size: 2.3vw;
+}
+.slogan p{
+    color: #fff;
+    max-width: 600px;
+    font-size: 1.2vw;
+}
+.visi-misi{
+    margin-bottom: 80px;
+}
+.visi-misi .garis{
+    height: 2px;
+    background: #ffd700;
+    width: 60px;
+    margin-top: 10px;
+}
+.visi-misi h5{
+    color: #022c43;
+    font-family: poppins-medium;
+}
+.visi-misi .text-visi{
+    font-family: poppins-italic;
+}
+.visi-misi li{
+    font-family: poppins-italic;
+}
+.visi-misi i{
+    color: #ffd700;
+}
+.slogan2{
+    margin-bottom: 80px;
+    background-image: url(../img/back-footer.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.slogan2 .container{
+    padding-top: 90px;
+    padding-bottom: 80px;
+}
+.slogan2 h1{
+    color: #fff;
+    font-size: 3vw;
+    text-align: center;
+}
+.slogan2 t{
+    color: #ffd700; 
+}
+.lambang{
+    margin-bottom: 80px;
+}
+.lambang img{
+    margin-bottom: 40px;
+}
+.lambang .tgl{
+    margin-top: -14px;;
+}
+.lambang .section-heading p{
+    font-family: poppins-italic;
+}
+.lambang ul {
+    list-style-type: number;
+    font-family: poppins-medium;
+    font-size: 20px;
+}
+.lambang ul li h6{
+    font-family: poppins-medium;
+    padding-left: 40px;
+}
+.lambang ul li p{
+    padding-left: 40px;
+}
+
+@media (max-width: 1063px) {
+    .location-unit {
+        font-size: 8px;
+    }
+}
+@media (max-width: 952px) {
+    .unit-caption {
+        padding-top: 5px;
+    }
+}
+@media (max-width: 767px){   
+    .slogan .container{
+        padding-left: 10%;
+    }
+    .section-heading h1 {
+        font-weight: 0;
+        font-size: 30px;
+    }
+    .unit-caption {
+        padding-top: 30px;
+        font-size: 16px;
+    }
+    .location-unit {
+        font-size: 12px;
+    }
+}
+@media (max-width: 750px){ 
+    .unit-caption {
+        padding-top: 15px;
+    }
+}
+@media (max-width: 648px){   
+    .slogan .container{
+        padding-left: 10%;
+    }
+    .unit-caption {
+        padding-top: 5px;
+    }
+}
+@media (max-width: 575px){   
+    .slogan .container{
+        padding-left: 20%;
+    }
+    .ket-web .isi-ket{
+        text-align: left;
+    }
+    .single-today-area:{
+        margin-top: -15px;
+    }
+    .single-today-area:hover {
+        transform: scale(1);
+    }
+    .single-today-area .today-inpo{
+        position: relative;
+        padding: 0;
+        padding-top: 15px;
+    }
+    .single-today-area .today-inpo h6{
+        color: #000; 
+    }
+    .single-today-area .today-inpo p{
+        color: #000;
+    }
+    .manajemen .judul-nama{
+        font-size: 15px;
+    }
+    .unit-caption {
+        padding-top: 40px;
+    }
+}
+@media (max-width: 432px) {
+    .unit-caption {
+        padding-top: 30px;
+        font-size: 14px;
+    }
+    .location-unit {
+        font-size: 10px;
+    }
+}
+@media (max-width: 400px){
+    .sambutan .section-text h3{
+        font-size: 22px;
+        font-weight: 0;
+    }
+    .sambutan img{
+        max-width: 250px;
+    }
+    .single-today-area .today-inpo h6{
+        font-size: 13px;
+    }
+    .single-today-area .today-inpo p{
+        font-size: 11px;
+    }
+    p{
+        font-size: 12px;
+    }
+    .visi-misi li{
+        font-size: 12px;
+    }
+    .section-heading h1 {
+        font-weight: 0;
+        font-size: 24px;
+    }
+    .lambang ul li h6{
+        font-size: 14px;
+        padding-left: 20px;
+    }
+    .lambang ul li p{
+        padding-left: 20px;
+    }
+    .lambang ul {
+        font-size: 15px;
+    }
+    .lambang img{
+        width: 60%;
+    }
+}
+@media (max-width: 390px) {
+    .unit-caption {
+        padding-top: 15px;
+        font-size: 12px;
+    }
+    .location-unit {
+        font-size: 10px;
+    }
+}
+
