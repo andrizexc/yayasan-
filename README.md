@@ -13,3 +13,14 @@
 1. `php artisan key:generate`
 1. `php artisan migrate --seed`
 1. run the app
+
+# users
+1. master@bpi.id (Yayasan)
+1. tk@bpi.id (TK)
+1. sd@bpi.id (SD)
+1. smp@bpi.id (SMP)
+1. sma1@bpi.id (SMA 1)
+1. sma2@bpi.id (SMA 2)
+1. smk@bpi.id (SMK)
+
+pass: 12345678
