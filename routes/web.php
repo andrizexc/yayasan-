@@ -8,7 +8,7 @@ Auth::routes([
 
 // --------------------------------- guest
 
-Route::get('/', 'GuestController@home');
+Route::get('/', 'GuestController@home')->name('guestWelcome');
 Route::get('/about', 'GuestController@about');
 Route::get('/history', 'GuestController@history');
 Route::get('/facility', 'GuestController@facility');

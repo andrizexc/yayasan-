@@ -43,19 +43,14 @@
                 </div>
             </div>
             <div class="col-12 col-md-12 item-slick1" data-thumb="{{ asset('img/dr-bpi.png') }}"
-                data-caption="YAYASAN BPI">
+                data-caption="Tes">
                 <div class="row">
                     <div class="col-12 col-sm-12 col-lg-7">
                         <div class="container-slick">
                             <div class="isi-content-1 col-md-10">
-                                <h9>3.405 MURID SUDAH TERDAFTAR</h9>
-                                <h1>AYO DAFTAR SEKARANG</h1>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                                    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                                    deserunt mollit anim id est laborum.</p><br><br>
+                                <h9>vasdlkvasjnvk</h9>
+                                <h1>dfkljbsnlsdk</h1>
+                                <p>fdklvndlkvjsndlbkjsdf</p><br><br>
                                 <button type="submit" class="btn bpi-btn">VIEW MORE</button>
                             </div>
                         </div>

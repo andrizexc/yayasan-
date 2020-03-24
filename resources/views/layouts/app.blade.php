@@ -54,7 +54,7 @@
 </head>
 
 <body>
-    <div {{strpos(Request::route()->getName(), 'addGroup.') === 0 ? '' : "id=app"}}>
+    <div {{strpos(Request::route()->getName(), 'addGroup.') === 0 || strpos(Request::route()->getName(), 'guestWelcome') === 0 ? '' : "id=app"}}>
         @include('layouts.navbar')
         <main>
             @yield('content')
