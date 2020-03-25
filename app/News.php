@@ -33,7 +33,7 @@ class News extends Model
     }
     public static function getRandom($type){
         return DB::table('news')
-            ->select('path', 'news.created_at as created_at', 'title', 'name')
+            ->select('news.id', 'path', 'news.created_at as created_at', 'title', 'name')
             ->join('users', 'users.id', '=', 'user_id')
             ->where('type', $type)
             ->orderBy(DB::raw('RAND()'))

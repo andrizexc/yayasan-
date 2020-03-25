@@ -25,7 +25,7 @@
                     <div class="col-12 col-sm-12 col-lg-7">
                         <div class="container-slick">
                             <div class="isi-content-1 col-md-10">
-                                <h9>3.405 MURID SUDAH TERDAFTAR</h9>
+                                <h9>3.405 MURID SUDAH TERDAFTAR YAYASAN BPI</h9>
                                 <h1>AYO DAFTAR SEKARANG</h1>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                     incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
@@ -33,40 +33,22 @@
                                     irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
                                     pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
                                     deserunt mollit anim id est laborum.</p><br><br>
-                                <button type="submit" class="btn bpi-btn">VIEW MORE</button>
+                                <button type="submit" class="btn bpi-btn">DAFTAR</button>
                             </div>
                         </div>
                     </div>
                     <div class="col-5 col-sm-12 col-lg-5 img-hidden">
-                        <img src="{{ asset('img/img-content-1.jpg') }}">
+                        <img src="{{ asset('img/yayasan-1.jpg') }}">
                     </div>
                 </div>
             </div>
             <div class="col-12 col-md-12 item-slick1" data-thumb="{{ asset('img/dr-bpi.png') }}"
-                data-caption="Tes">
+                data-caption="TK BPI">
                 <div class="row">
                     <div class="col-12 col-sm-12 col-lg-7">
                         <div class="container-slick">
                             <div class="isi-content-1 col-md-10">
-                                <h9>vasdlkvasjnvk</h9>
-                                <h1>dfkljbsnlsdk</h1>
-                                <p>fdklvndlkvjsndlbkjsdf</p><br><br>
-                                <button type="submit" class="btn bpi-btn">VIEW MORE</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-5 col-sm-12 col-lg-5 img-hidden">
-                        <img src="{{ asset('img/img-content-1.jpg') }}">
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-12 item-slick1" data-thumb="{{ asset('img/dr-bpi.png') }}"
-                data-caption="YAYASAN BPI">
-                <div class="row">
-                    <div class="col-12 col-sm-12 col-lg-7">
-                        <div class="container-slick">
-                            <div class="isi-content-1 col-md-10">
-                                <h9>3.405 MURID SUDAH TERDAFTAR</h9>
+                                <h9>TK BADAN PERGURUAN INDONESIA</h9>
                                 <h1>AYO DAFTAR SEKARANG</h1>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                     incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
@@ -74,104 +56,127 @@
                                     irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
                                     pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
                                     deserunt mollit anim id est laborum.</p><br><br>
-                                <button type="submit" class="btn bpi-btn">VIEW MORE</button>
+                                <button type="submit" class="btn bpi-btn">DAFTAR</button>
                             </div>
                         </div>
                     </div>
                     <div class="col-5 col-sm-12 col-lg-5 img-hidden">
-                        <img src="{{ asset('img/img-content-1.jpg') }}">
+                        <img src="{{ asset('img/tk-bpi.jpg') }}">
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-12 item-slick1" data-thumb="{{ asset('img/dr-bpi.png') }}"
-                data-caption="YAYASAN BPI">
+            <div class="col-12 col-md-12 item-slick1" data-thumb="{{ asset('img/sd-1.jpg') }}"
+                data-caption="SD BPI">
                 <div class="row">
                     <div class="col-12 col-sm-12 col-lg-7">
                         <div class="container-slick">
                             <div class="isi-content-1 col-md-10">
-                                <h9>3.405 MURID SUDAH TERDAFTAR</h9>
-                                <h1>AYO DAFTAR SEKARANG</h1>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                                    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                                    deserunt mollit anim id est laborum.</p><br><br>
-                                <button type="submit" class="btn bpi-btn">VIEW MORE</button>
+                              <h9>SD BADAN PERGURUAN INDONESIA</h9>
+                              <h1>AYO DAFTAR SEKARANG</h1>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                  incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                  exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                                  irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                  pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                  deserunt mollit anim id est laborum.</p><br><br>
+                              <button type="submit" class="btn bpi-btn">DAFTAR</button>
                             </div>
                         </div>
                     </div>
                     <div class="col-5 col-sm-12 col-lg-5 img-hidden">
-                        <img src="{{ asset('img/img-content-1.jpg') }}">
+                        <img src="{{ asset('img/sd-2.jpg') }}">
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-12 item-slick1" data-thumb="{{ asset('img/dr-bpi.png') }}"
-                data-caption="YAYASAN BPI">
+            <div class="col-12 col-md-12 item-slick1" data-thumb="{{ asset('img/smp-2.jpg') }}"
+                data-caption="SMP BPI">
                 <div class="row">
                     <div class="col-12 col-sm-12 col-lg-7">
                         <div class="container-slick">
                             <div class="isi-content-1 col-md-10">
-                                <h9>3.405 MURID SUDAH TERDAFTAR</h9>
-                                <h1>AYO DAFTAR SEKARANG</h1>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                                    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                                    deserunt mollit anim id est laborum.</p><br><br>
-                                <button type="submit" class="btn bpi-btn">VIEW MORE</button>
+                              <h9>SMP PERTAMA BADAN PERGURUAN INDONESIA</h9>
+                              <h1>AYO DAFTAR SEKARANG</h1>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                  incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                  exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                                  irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                  pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                  deserunt mollit anim id est laborum.</p><br><br>
+                              <button type="submit" class="btn bpi-btn">DAFTAR</button>
                             </div>
                         </div>
                     </div>
                     <div class="col-5 col-sm-12 col-lg-5 img-hidden">
-                        <img src="{{ asset('img/img-content-1.jpg') }}">
+                        <img src="{{ asset('img/smp-1.jpg') }}">
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-12 item-slick1" data-thumb="{{ asset('img/dr-bpi.png') }}"
-                data-caption="YAYASAN BPI">
+            <div class="col-12 col-md-12 item-slick1" data-thumb="{{ asset('img/sma-1.jpg') }}"
+                data-caption="SMA 1 BPI">
                 <div class="row">
                     <div class="col-12 col-sm-12 col-lg-7">
                         <div class="container-slick">
                             <div class="isi-content-1 col-md-10">
-                                <h9>3.405 MURID SUDAH TERDAFTAR</h9>
-                                <h1>AYO DAFTAR SEKARANG</h1>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                                    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                                    deserunt mollit anim id est laborum.</p><br><br>
-                                <button type="submit" class="btn bpi-btn">VIEW MORE</button>
+                              <h9>SMA 1  BADAN PERGURUAN INDONESIA</h9>
+                              <h1>AYO DAFTAR SEKARANG</h1>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                  incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                  exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                                  irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                  pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                  deserunt mollit anim id est laborum.</p><br><br>
+                              <button type="submit" class="btn bpi-btn">DAFTAR</button>
                             </div>
                         </div>
                     </div>
                     <div class="col-5 col-sm-12 col-lg-5 img-hidden">
-                        <img src="{{ asset('img/img-content-1.jpg') }}">
+                        <img src="{{ asset('img/sma-2.jpg') }}">
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-12 item-slick1" data-thumb="{{ asset('img/dr-bpi.png') }}"
-                data-caption="YAYASAN BPI">
+            <div class="col-12 col-md-12 item-slick1" data-thumb="{{ asset('img/sma2-1.jpeg') }}"
+                data-caption="SMA 2 BPI">
                 <div class="row">
                     <div class="col-12 col-sm-12 col-lg-7">
                         <div class="container-slick">
                             <div class="isi-content-1 col-md-10">
-                                <h9>3.405 MURID SUDAH TERDAFTAR</h9>
-                                <h1>AYO DAFTAR SEKARANG</h1>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                                    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                                    deserunt mollit anim id est laborum.</p><br><br>
-                                <button type="submit" class="btn bpi-btn">VIEW MORE</button>
+                              <h9>SMA 2  BADAN PERGURUAN INDONESIA</h9>
+                              <h1>AYO DAFTAR SEKARANG</h1>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                  incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                  exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                                  irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                  pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                  deserunt mollit anim id est laborum.</p><br><br>
+                              <button type="submit" class="btn bpi-btn">DAFTAR</button>
                             </div>
                         </div>
                     </div>
                     <div class="col-5 col-sm-12 col-lg-5 img-hidden">
-                        <img src="{{ asset('img/img-content-1.jpg') }}">
+                        <img src="{{ asset('img/sma2-2.jpg') }}">
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-12 item-slick1" data-thumb="{{ asset('img/smk-1.png') }}"
+                data-caption="SMK BPI">
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-lg-7">
+                        <div class="container-slick">
+                            <div class="isi-content-1 col-md-10">
+                              <h9>SMK   BADAN PERGURUAN INDONESIA</h9>
+                              <h1>AYO DAFTAR SEKARANG</h1>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                  incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                  exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                                  irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                  pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                  deserunt mollit anim id est laborum.</p><br><br>
+                              <button type="submit" class="btn bpi-btn">DAFTAR</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-5 col-sm-12 col-lg-5 img-hidden">
+                        <img src="{{ asset('img/20.png') }}">
                     </div>
                 </div>
             </div>
@@ -273,7 +278,7 @@
                     s = resp.data.schedule,
                     p = resp.data.prestation,
                     url = '{{ url("/") }}/'
-                
+
                 for(var i = 0; i < n.length; i++){
                     var dt = new Date(n[i].created_at)
 
@@ -299,7 +304,7 @@
                 for(var i = 0; i < a.length; i++){
                     var date = new Date(a[i].created_at),
                         desc = tagRemove(a[i].desc)
-                    
+
                     $('#bpi-article-js').append(`
                         <a class="col-12 col-md-6 col-lg-4 respon-card" href="${url+'articles/'+a[i].id}">
                             <div class="single-thumb-artikel">
@@ -395,7 +400,7 @@
                                         <div class="col-md-4 event">
                                             <p class="info-juara">Unit sekolah</p>
                                             <p class="number-juara">${p[i].name}</p>
-                                        </div> 
+                                        </div>
                                     </div>
                                 </div>
                             </div>

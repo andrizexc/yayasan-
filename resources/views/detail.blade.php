@@ -115,7 +115,7 @@
                         <div class="single-widget-area">
                             <div class="row">
                                 @foreach($random as $key)
-                                <div class="col-12 col-sm-12 col-lg-12">
+                                <a class="col-12 col-sm-12 col-lg-12" href="{{ url('news/'.$key->id) }}">
                                     <figure class="agenda-card kecil">
                                         <img src="{{ $key->path }}">
                                         <div class="figcaption">
@@ -130,7 +130,7 @@
                                             </center>
                                         </div>
                                     </figure>
-                                </div>
+                                </a>
                                 @endforeach
                             </div>
                         </div>
